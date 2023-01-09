@@ -452,13 +452,15 @@ input[type="number"] {
     }
     @media screen and (max-width: 575px) {
         &.text-left {
-            .slider {
-                &_text {
-                    padding-left: 12vw;
-                    &_title {
-                        padding-left: 10vw;
-                        h3, h4 {
-                            padding-left: 10px;
+            &:not(.convenient) {
+                .slider {
+                    &_text {
+                        padding-left: 12vw;
+                        &_title {
+                            padding-left: 10vw;
+                            h3, h4 {
+                                padding-left: 10px;
+                            }
                         }
                     }
                 }
@@ -783,6 +785,7 @@ input[type="number"] {
             border: 0;
             position: relative;
             transition: 0.3s;
+            color: #000;
             &:hover {
                 color: #CF7115;
                 &::after {

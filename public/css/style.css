@@ -480,13 +480,13 @@ input[type="number"] {
 }
 
 @media screen and (max-width: 575px) {
-  .slider.text-left .slider_text {
+  .slider.text-left:not(.convenient) .slider_text {
     padding-left: 12vw;
   }
-  .slider.text-left .slider_text_title {
+  .slider.text-left:not(.convenient) .slider_text_title {
     padding-left: 10vw;
   }
-  .slider.text-left .slider_text_title h3, .slider.text-left .slider_text_title h4 {
+  .slider.text-left:not(.convenient) .slider_text_title h3, .slider.text-left:not(.convenient) .slider_text_title h4 {
     padding-left: 10px;
   }
   .slider_text_intro {
@@ -850,6 +850,7 @@ input[type="number"] {
   position: relative;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  color: #000;
 }
 
 .reserve_form button:hover {
