@@ -64,7 +64,7 @@ var swiperRoom = new Swiper(".room-swiper", {
 function sendEmail(){
     Email.send({
         SecureToken: "8207c7d7-4a6c-4797-870d-d16ee71023ce",
-        To : "yl301114@gmail.com, a0932168202@gmail.com, zhulixdesign@gmail.com, zhuli705098@gmail.com",
+        To : "a0932168202@gmail.com, zhulixdesign@gmail.com, zhuli705098@gmail.com",
         From : "walayydesign@gmail.com",
         Subject : "藍海VILLA預約賞屋",
         Body : "姓名:" + document.getElementById("name").value
