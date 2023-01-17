@@ -780,6 +780,19 @@ input[type="number"] {
                 margin-bottom: 0;
             }
         }
+        &_check {
+            input {
+                width: 15px;
+                height: 15px;
+                margin-right: 5px;
+            }
+            label {
+                a {
+                    text-decoration: underline;
+                    color: #C66F1A;
+                }
+            }
+        }
         button {
             font-size: 33px;
             font-weight: 500;

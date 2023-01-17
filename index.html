@@ -25,6 +25,28 @@
     <link rel="stylesheet" href="./public/css/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./public/css/aos/aos.css">
     <link rel="stylesheet" href="./public/css/style.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10841953816"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-10841953816');
+    </script>
+    <script>
+        function gtag_report_conversion(url) {
+          var callback = function () {
+            if (typeof(url) != 'undefined') {
+              window.location = url;
+            }
+          };
+          gtag('event', 'conversion', {
+              'send_to': 'AW-10841953816/a_XNCOSigKYDEJis7LEo',
+              'event_callback': callback
+          });
+          return false;
+        }
+    </script>
 </head>
 <body>
     <div class="kv section">
@@ -234,6 +256,10 @@
             </div>
             <div class="col-md-6">
                 <div class="reserve_form_item"><textarea id="content" name="" id="" cols="30" rows="10"></textarea></div>
+            </div>
+            <div class="reserve_form_check d-flex justify-content-center align-items-center mt-4">
+                <input type="checkbox" id="check" required>
+                <label for="check">本人知悉並同意「<a href="./privacy.html" target="_blank">隱私權政策</a>」內容</label>
             </div>
             <button type="submit">立即預約</button>
         </form>

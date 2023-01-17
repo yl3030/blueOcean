@@ -841,6 +841,17 @@ input[type="number"] {
   margin-bottom: 0;
 }
 
+.reserve_form_check input {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.reserve_form_check label a {
+  text-decoration: underline;
+  color: #C66F1A;
+}
+
 .reserve_form button {
   font-size: 33px;
   font-weight: 500;
