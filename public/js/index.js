@@ -66,6 +66,7 @@ function sendEmail(){
         SecureToken: "8207c7d7-4a6c-4797-870d-d16ee71023ce",
         To : "a0932168202@gmail.com, zhulixdesign@gmail.com, zhuli705098@gmail.com",
         From : "walayydesign@gmail.com",
+        // From : "藍海VILLA",
         Subject : "藍海VILLA預約賞屋",
         Body : "姓名:" + document.getElementById("name").value
                 + "<br>手機:" + document.getElementById("phone").value
